@@ -1,0 +1,601 @@
+/********************************************************************************************************************/
+/******************************************** MAIN RTL STYLES ******************************************************/
+/******************************************************************************************************************/
+
+html { display: block; }
+
+/** GLOBAL STYLES **/
+html, body {
+	margin: 0 !important;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+	color: inherit;
+}
+p, h1, h2, h3, td, th, label, caption, figcaption {
+	font-family: 'Lora', sans-serif;
+	margin: 0;
+}
+h1 {
+	font-size: 26px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.flex {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+/** MENU **/
+.menu-container {
+	height: 70px;
+	padding-top: 20px;
+    border-right: 5px solid #cfb53b;
+}
+.menu {
+	width: 228px;
+	border-right: 2px solid #cfb53b;
+	color: #000;
+	background-color: #cfb53b;
+	position: fixed;
+	left: -230px;
+	-webkit-transition: left 1s;
+    transition: left 1s;	
+	z-index: 10;
+	top: 0px;
+	overflow: hidden;
+}
+.menu-button {
+	display: inline;
+	width: 45px;
+	height: 45px;
+	padding: 0 10px 0;
+	cursor: pointer;
+	-webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+.menu-button img {
+	height: 50px;
+    padding-bottom: 25px;
+}
+.menu-list {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', sans-serif;
+	font-size: 21px;
+}
+.menu-title {
+	height: 30px;
+	padding: 10px 0 0 5px;
+	border-bottom: 5px solid #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu-close {
+	height: 20px;
+	float: right;
+	margin: 2px 7px 0 0;
+	cursor: pointer;
+}
+.menu-option {
+	padding: 5px;
+	border-bottom: 1px solid #000;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.menu-option:hover {
+	background-color: #fff;
+}
+.menu-chevron img {
+	height: 24px;
+ 	margin: 3px 5px 0 0;
+}
+.menu-option.sub-menu {
+	display: none;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+/** HEADER **/
+.header {
+	width: 100%;
+	height: 90px;
+	background-color: #000;
+	border-bottom: 5px solid #cfb53b;
+}
+.header .logo {
+	float: left;
+	height: 80px;
+    margin: 5px 10px 0;
+}
+.header .header-info {
+	float: left;
+	padding-top: 4px;
+}
+.header .header-info p {
+	font-size: 22px;
+	color: #fff;	
+	text-transform: uppercase;
+}
+.header .social-buttons {
+	margin: 20px 25px 0 0;
+}
+.header .fa {
+	width: 30px;
+	margin-right: 10px;
+	padding: 8px;
+	font-size: 30px;
+	border-radius: 30px;
+	background-color: #cfb53b;
+	color: #fff;
+	text-align: center;
+}
+.header .fa-google-plus {
+	margin-right: 0;
+}
+.header .fa-facebook:hover {
+	background-color: #3b5998;
+}
+.header .fa-twitter:hover {
+	background-color: #4099ff;
+}
+.header .fa-google-plus:hover {
+	background-color: #dd4b39;
+}
+.header .fa-instagram:hover {
+	background-color: #125688;
+}
+
+/** FOOTER **/
+.footer {
+	width: 100%;
+	height: 90px;
+	background-color: #000;
+	border-top: 5px solid #cfb53b;
+}
+.footer .logo {
+	float: left;
+	height: 80px;
+    margin: 5px 10px 0;
+}
+.footer .footer-info {
+	margin: 6px 0 0 0;
+}
+.footer .footer-info p {
+	font-size: 16px;
+	color: #fff;
+}
+.footer .footer-contact {
+	margin: 32px 30px 0 0;
+}
+.footer .footer-contact p {
+	font-size: 22px;
+    text-transform: uppercase;
+    color: #cfb53b;
+}
+
+/** GLOBAL PAGES **/
+.content {
+	width: 1038px;
+	margin: 40px auto;
+	overflow: auto;
+}
+.cover-container {
+	display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    background-color: #000;
+	opacity: 0.5;
+}
+.section-title {
+	padding-left: 10px;
+	font-size: 32px;
+	text-transform: uppercase;
+    background: #cfb53b;
+    border-bottom: 3px solid #000;
+	text-shadow: 1px .5px 0 #fff;
+}
+.payment-banner {
+    background: #cfb53b;
+    padding: 5px;
+    text-align: center;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+.payment-banner h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.payment-banner a:hover {
+	color: #fff;
+}
+
+/** HOME PAGE **/
+#page-home .president-section {
+	margin-bottom: 40px;
+    overflow: visible;
+}
+#page-home .president-section .section-title {
+	float: right;
+    width: 800px;
+	margin-bottom: 10px;
+}
+#page-home .president-section img {
+	height: 290px;
+	margin-right: 15px;
+	border: 5px solid #cfb53b;
+}
+#page-home .president-section p {
+	font-size: 20px;
+	line-height: 40px;
+	text-align: justify;
+}
+#page-home .president-profile {
+	float: left;
+}
+#page-home .president-profile p {
+	width: 212px;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	background: #cfb53b;
+}
+#page-home .gallery-container {
+	position: relative;
+	max-width: none;
+}
+#page-home #slideshow {
+	position: relative;
+	width: 600px;
+	max-width: none;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+	overflow: hidden;
+}
+#page-home .photo-gallery {
+	position: relative;
+	left: 0;
+	float: left;
+    width: 6000px;
+	max-width: none;
+	-webkit-transition: left 1s;
+    transition: left 1s;
+}
+#page-home .photo-gallery .photo {
+	float: left;
+}
+#page-home .photo-gallery .photo img {
+	width: 600px;
+	height: auto;
+}
+#page-home #slideshow .fa {
+	position: absolute;
+	top: 150px;
+	font-size: 100px;
+	color: #ffffff;
+	z-index: 2;
+	cursor: pointer;
+}
+#page-home #slideshow .fa.fade {
+	opacity: 0.3;
+}
+#page-home #slideshow .fa-angle-left {
+	left: 10px;
+}
+#page-home #slideshow .fa-angle-right {
+	left: 555px;
+}
+#page-home .events-section {
+	width: 728px;
+}
+#page-home .events-section figure {
+	float: left;
+	margin: 0;
+}
+#page-home .events-section figure:first-of-type {
+	margin-bottom: 25px;
+}
+#page-home .events-section figure img {
+	width: 400px;
+    height: 580px;
+    margin: 20px 10px 0 0;
+}
+#page-home .events-section figcaption {
+	width: 210px;
+	text-align: center;
+}
+#page-home .event-images form {
+	margin-bottom: 10px;
+}
+#page-home .event-images form img {
+	height: 0;
+	margin: 0;
+}
+#page-home .event-text {
+	width: 318px;
+	margin-top: 200px;
+}
+#page-home .event-text .buy-tickets,
+#page-home .event-text .download-image,
+#page-home .event-text .share-event {
+	margin-bottom: 10px;
+	padding: 5px 0;
+	color: #fff;
+	border: 3px solid #000;
+	background: #cfb53b;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 0px #000;
+}
+#page-home .event-text .download-image {
+	color: #000;
+	background: #fff;
+    text-shadow: none;
+}
+#page-home .addthis-share {
+	display: none;
+	width: 180px;
+	margin: 0 auto;
+}
+#page-home .addthis-share .fa {
+	width: 30px;
+	padding: 10px;
+	color: #fff;
+	font-size: 30px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+#page-home .addthis-share .fa-facebook {
+	padding: 10px 4px 10px 16px;
+	background-color: #3b5998;
+}
+#page-home .addthis-share .fa-twitter {
+	padding: 10px 8px 10px 12px;
+	background-color: #4099ff;
+}
+#page-home .addthis-share .fa-envelope {
+	background-color: #aaa;
+}
+#page-home .social-section {
+	width: 300px;
+	text-align: center;
+}
+
+/** RTL HISTORY PAGE **/
+#page-standard .section-title {
+	margin-bottom: 20px;
+}
+#page-standard .rtl-history p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+#page-standard .rtl-history img {
+	height: 300px;
+}
+#page-standard .rtl-history .image-1 {
+	margin-right: 20px;
+}
+#page-standard .rtl-history .image-holder {
+	width: 100%;
+	text-align: center;
+}
+#page-standard .rtl-history .image-2 {
+	margin: 20px 0;
+}
+#page-standard .rtl-history .image-3 {
+	margin-left: 20px;
+}
+#page-standard .rtl-charters {
+	margin-top: 20px;
+}
+#page-standard .rtl-charters li {
+	font-size: 20px;
+    line-height: 40px;
+	text-align: center;
+}
+
+/** APA HISTORY PAGE **/
+#page-standard .section-title {
+	margin-bottom: 20px;
+}
+#page-standard .alpha-history img {
+	height: 300px;
+}
+#page-standard .alpha-history .image-1 {
+	margin-left: 20px;
+}
+#page-standard .alpha-history p {
+	margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+#page-standard .founder-info {
+	padding: 10px;
+}
+#page-standard .founder-info:nth-of-type(odd) {
+	background-color: #eee;
+}
+#page-standard .founder-info img {
+	height: 200px;
+	margin-right: 20px;
+}
+#page-standard .founder-info h2 {
+	text-transform: uppercase;
+}
+#page-standard .founder-info p {
+	margin-bottom: 0;
+}
+
+/** CURRENT MEMBERS PAGE **/
+#page-standard .group-image {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#page-standard .group-image img {
+	max-width: 728px;
+}
+#page-standard .officer-list figure {
+	float: left;
+	margin: 20px 70px 20px 0;
+}
+#page-standard .officer-list figure:nth-of-type(4n) {
+	margin-right: 0;
+}
+#page-standard .officer-list figure:nth-of-type(4n+1) {
+	clear: both;
+}
+#page-standard .officer-list figure img {
+	width: 205px;
+	height: 280px;
+	border-radius: 5px;
+}
+#page-standard .officer-list figcaption {
+	margin-top: 10px;
+	font-size: 13px;
+}
+#page-standard .member-list {
+	margin-top: 20px;
+}
+#page-standard .member-list ul {
+	float: left;
+	width: 1038px;
+	margin-top: 20px;
+}
+#page-standard .member-list li {
+	float: left;
+	width: 346px;
+	font-size: 20px;
+    line-height: 40px;
+}
+#page-standard .member-list span {
+	color: #cfb53b;
+}
+
+/** LINEAGE PAGE **/
+#page-standard .lineage ul {
+	margin-bottom: 20px;
+}
+#page-standard .lineage li {
+	font-size: 20px;
+    line-height: 40px;
+}
+
+/** EVENT PAGE **/
+#page-event .content {
+	text-align: center;
+}
+#page-event .content img {
+	width: 600px;
+	height: auto;
+}
+
+/** EVENTS PAGE **/
+#page-standard .current-events figure,
+#page-standard .past-events figure {
+	margin: 0 69px 10px 0;
+}
+#page-standard .current-events figure:nth-of-type(3n),
+#page-standard .past-events figure:nth-of-type(3n) {
+	margin-right: 0;
+}
+#page-standard .current-events figure img,
+#page-standard .past-events figure img {
+	width: 300px;
+	height: 440px;
+}
+#page-standard .past-events {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+
+/** CONTACT PAGE **/
+.wpcf7 {
+	margin-top: 30px;
+}
+.wpcf7 input {
+	width: 100%;
+	height: 30px;
+    margin-top: 10px;
+}
+.wpcf7 p {
+	margin-bottom: 10px;
+}
+.wpcf7 textarea {
+	width: 100%;
+    margin-top: 10px;
+}
+.wpcf7 input[type="submit"] {
+	height: 40px;
+	background: #cfb53b;
+	font-size: 20px;
+	-webkit-appearance: none;
+}
+
+/** BARN DANCE PAGE **/
+.order-form {
+	width: 340px;
+	margin: 20px auto 0;
+	padding: 10px;
+	background: #cfb53b;
+	text-align: center;
+}
+.order-form .required {
+	padding: 10px 0 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.order-form h2 {
+	padding-bottom: 10px;
+}
+.order-form input[type="text"],
+.order-form input[type="email"], 
+.order-form select {
+	width: 80%;
+	height: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.order-form select {
+	width: auto;
+}
+.order-form .button {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}

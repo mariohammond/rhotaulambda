@@ -1,0 +1,3 @@
+[26-Oct-2018 03:39:47 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 07:52:57 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[27-Oct-2018 00:18:20 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171

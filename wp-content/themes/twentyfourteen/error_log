@@ -1,0 +1,68 @@
+[28-Nov-2016 15:42:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[28-Nov-2016 16:19:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[29-Nov-2016 02:06:28 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[14-Feb-2018 09:05:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/page.php on line 14
+[14-Feb-2018 09:05:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/page.php on line 14
+[06-Dec-2018 00:15:25 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/header.php on line 13
+[06-Dec-2018 03:22:46 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/header.php on line 13
+[11-Dec-2018 13:06:29 UTC] PHP Notice:  Undefined index: wp_version in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 42
+[11-Dec-2018 13:06:29 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 43
+[11-Dec-2018 14:08:03 UTC] PHP Notice:  Undefined index: wp_version in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 42
+[11-Dec-2018 14:08:03 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 43
+[11-Dec-2018 18:41:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10
+[12-Dec-2018 02:39:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10
+[28-Mar-2019 08:56:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10
+[14-Apr-2019 01:18:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/author.php on line 12
+[14-Apr-2019 08:36:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/author.php on line 12
+[14-Apr-2019 12:32:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/single.php on line 10
+[14-Apr-2019 19:05:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/single.php on line 10
+[14-Apr-2019 23:25:22 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/featured-content.php on line 19
+[05-May-2019 10:27:38 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/featured-content.php on line 19
+[05-May-2019 19:55:54 UTC] PHP Fatal error:  Call to undefined function get_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/footer.php on line 17
+[21-May-2019 14:44:57 UTC] PHP Fatal error:  Call to undefined function get_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/footer.php on line 17
+[21-May-2019 20:15:37 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content.php on line 13
+[22-May-2019 05:19:16 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content.php on line 13
+[23-May-2019 18:10:59 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-gallery.php on line 11
+[24-May-2019 07:28:44 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-gallery.php on line 11
+[25-May-2019 08:04:17 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-video.php on line 11
+[25-May-2019 17:11:40 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-video.php on line 11
+[26-May-2019 03:44:05 UTC] PHP Fatal error:  Call to undefined function wp_get_attachment_metadata() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/image.php on line 11
+[26-May-2019 12:44:28 UTC] PHP Fatal error:  Call to undefined function wp_get_attachment_metadata() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/image.php on line 11
+[31-May-2019 00:39:12 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-featured-post.php on line 11
+[03-Jun-2019 23:11:09 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-featured-post.php on line 11
+[04-Jun-2019 01:42:46 UTC] PHP Fatal error:  Call to undefined function _e() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-none.php on line 12
+[04-Jun-2019 04:36:16 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-featured-post.php on line 11
+[04-Jun-2019 08:16:37 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-featured-post.php on line 11
+[05-Jun-2019 15:31:11 UTC] PHP Fatal error:  Call to undefined function _e() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-none.php on line 12
+[05-Jun-2019 18:02:46 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-page.php on line 11
+[05-Jun-2019 21:46:40 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-page.php on line 11
+[06-Jun-2019 00:21:25 UTC] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/sidebar-content.php on line 10
+[06-Jun-2019 09:39:03 UTC] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/sidebar-content.php on line 10
+[06-Jun-2019 16:51:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10
+[09-Jun-2019 02:57:54 UTC] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/sidebar-footer.php on line 10
+[09-Jun-2019 06:38:44 UTC] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/sidebar-footer.php on line 10
+[09-Jun-2019 09:33:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[09-Jun-2019 13:45:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[09-Jun-2019 17:19:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[09-Jun-2019 21:37:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/index.php on line 17
+[09-Jun-2019 22:51:33 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-image.php on line 11
+[10-Jun-2019 02:37:59 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/content-image.php on line 11
+[10-Jun-2019 17:26:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/category.php on line 12
+[10-Jun-2019 20:56:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/category.php on line 12
+[11-Jun-2019 06:23:41 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/comments.php on line 16
+[14-Jun-2019 00:16:11 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/comments.php on line 16
+[14-Jun-2019 03:58:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/archive.php on line 20
+[14-Jun-2019 09:28:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/archive.php on line 20
+[12-Dec-2019 23:39:11 UTC] PHP Notice:  Undefined index: wp_version in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 42
+[12-Dec-2019 23:39:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/functions.php on line 43
+[16-Sep-2020 14:06:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10
+[15-Dec-2020 03:38:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentyfourteen/404.php on line 10

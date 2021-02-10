@@ -1,0 +1,187 @@
+/* RTL Theme - CSS Styles (Mobile) */
+
+@media all and (max-width: 735px) {
+
+/** HEADER **/
+.header .logo {
+	height: 65px;
+	margin: 18px 5px 0;
+}
+.header .header-info {
+	float: none;
+	padding: 20px 0 0 5px;
+}
+.header .header-info p {
+	font-size: 12px;
+}
+.header .social-buttons {
+	display: none;
+}
+
+/** FOOTER **/
+.footer .logo {
+	display: none;
+}
+.footer .footer-info {
+	margin-left: 5px;
+}
+.footer .footer-info p {
+	font-size: 14px;
+}
+.footer .footer-contact {
+	margin: 35px 10px 0 0;
+}
+.footer .footer-contact p {
+	font-size: 16px;
+}
+
+/** GLOBAL PAGES **/
+.content {
+	width: auto;
+	margin: 20px 10px;
+}
+.section-title {
+	padding: 0 0 0 5px;
+	font-size: 26px;
+	text-align: left;
+}
+
+/** HOME PAGE **/
+#page-home .president-section {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#page-home .president-section .section-title {
+	padding: 5px;
+}
+#page-home .president-section img {
+	float: none;
+	margin: 0 0 10px 0;
+}
+#page-home .president-section p {
+    font-size: 16px;
+    line-height: 32px;
+}
+#page-home .president-profile {
+	float: none;
+}
+#page-home .president-profile p {
+	width: auto;
+}
+#page-home #slideshow {
+	width: 340px;
+	height: auto;
+}
+#page-home .photo-gallery .photo img {
+	width: 340px;
+	height: auto;
+}
+#page-home #slideshow .fa {
+	top: 120px;
+	font-size: 60px;
+}
+#page-home #slideshow .fa-angle-right {
+	left: 310px;
+}
+#page-home .events-section {
+	width: 100%;
+	margin-top: 20px;
+}
+#page-home .events-section figure {
+	float: none;
+	width: 100%;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-align: center;
+}
+#page-home .events-section figure img {
+	width: 100%;
+	height: auto;
+	margin-right: 0;
+}
+#page-home .events-section figcaption {
+	width: 100%;
+}
+#page-home .event-text {
+	float: none;
+    width: 300px;
+    margin: 0 auto;
+}
+#page-home form input[type="image"] {
+	width: 300px;
+}
+
+/** RTL HISTORY PAGE **/
+#page-standard .rtl-history .image-1,
+#page-standard .rtl-history .image-2,
+#page-standard .rtl-history .image-3 {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+#page-standard .rtl-history p {
+	font-size: 16px;
+	line-height: 32px;
+}
+
+/** APA HISTORY PAGE **/
+#page-standard .alpha-history {
+	text-align: center;
+}
+#page-standard .alpha-history .image-1 {
+	float: none;
+	margin: 0;
+}
+#page-standard .alpha-history p {
+	font-size: 16px;
+	line-height: 32px;
+}
+#page-standard .founder-info img {
+	float: none;
+	margin: 0 0 10px 0;
+}
+
+/** CURRENT MEMBERS PAGE **/
+#page-standard .group-image img {
+	width: 100%;
+}
+#page-standard .officer-list figure {
+	float: none;
+	text-align: center;
+}
+#page-standard .officer-list figure,
+#page-standard .officer-list figure:nth-of-type(3n),
+#page-standard .officer-list figure:nth-of-type(3n+1),
+#page-standard .officer-list figure:nth-of-type(4n) {
+	margin-right: 0;
+	clear: none;
+}
+#page-standard .member-list ul {
+	width: 100%;
+}
+#page-standard .member-list li {
+	width: 100%;
+	font-size: 18px;
+}
+
+/** EVENTS PAGE **/
+#page-standard .current-events figure,
+#page-standard .past-events figure {
+	width: 100%;
+	text-align: center;
+}
+
+/** EVENT PAGE **/
+#page-event .content img {
+	width: 300px;
+}
+
+/** MEDIA QUERIES **/
+.mobileCheck {
+	display: block;
+}
+.wideCheck, .desktopCheck, .tabletCheck {
+	display: none;
+}
+
+}

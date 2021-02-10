@@ -1,0 +1,5 @@
+[02-May-2017 02:04:58 UTC] PHP Warning:  Division by zero in /home/demarelle/public_html/sites/rhotaulambda/wp-content/plugins/gallery-bank/front_views/includes_common_before.php on line 596
+[02-May-2017 23:28:26 UTC] PHP Warning:  Division by zero in /home/demarelle/public_html/sites/rhotaulambda/wp-content/plugins/gallery-bank/front_views/includes_common_before.php on line 596
+[08-May-2017 06:59:10 UTC] PHP Warning:  Division by zero in /home/demarelle/public_html/sites/rhotaulambda/wp-content/plugins/gallery-bank/front_views/includes_common_before.php on line 596
+[11-May-2017 19:20:16 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home/demarelle/public_html/sites/rhotaulambda/wp-includes/class-wp-xmlrpc-server.php on line 596
+[11-May-2017 19:20:23 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home/demarelle/public_html/sites/rhotaulambda/wp-includes/class-wp-xmlrpc-server.php on line 596

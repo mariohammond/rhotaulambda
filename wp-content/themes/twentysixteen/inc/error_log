@@ -1,0 +1,2 @@
+[31-Oct-2018 08:55:16 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentysixteen/inc/template-tags.php on line 169
+[04-Nov-2018 12:51:03 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/demarelle/public_html/sites/rhotaulambda/wp-content/themes/twentysixteen/inc/customizer.php on line 61
